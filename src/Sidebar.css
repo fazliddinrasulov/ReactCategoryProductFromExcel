@@ -1,0 +1,40 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px; /* Adjust width as needed */
+    background-color: #343a40; /* Sidebar background color */
+    color: #ffffff; /* Text color */
+    padding-top: 20px;
+}
+
+.sidebar-header {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-unstyled li a {
+    display: block;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.list-unstyled li a:hover {
+    background-color: #454d55; /* Hover background color */
+}
+
+.list-unstyled li.active > a,
+.list-unstyled li a:focus,
+.list-unstyled li a:active {
+    background-color: #007bff; /* Active/Selected background color */
+}
